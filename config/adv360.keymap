@@ -40,6 +40,16 @@
 
             bindings = <&kp LC(B)>;
         };
+
+        ss_toolbar: ss_toolbar {
+            compatible = "zmk,behavior-macro";
+            label = "SS_TOOLBAR";
+            #binding-cells = <0>;
+
+            // ⌘ + ⇧ + 5  (toolbar)
+
+            bindings = <&kp LG(LS(N5))>;
+        };
     };
 
     keymap {
