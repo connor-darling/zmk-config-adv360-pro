@@ -23,9 +23,22 @@
     macros {
         ss_select: ss_select {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp INT_KATAKANAHIRAGANA>;
             label = "SS_SELECT";
+            #binding-cells = <0>;
+
+            // ⌘ + ⇧ + 4  (selection)
+
+            bindings = <&kp LG(LS(N4))>;
+        };
+
+        prefix: prefix {
+            compatible = "zmk,behavior-macro";
+            label = "PREFIX";
+            #binding-cells = <0>;
+
+            // ⌃ + b  (tmux prefix)
+
+            bindings = <&kp LC(B)>;
         };
     };
 
