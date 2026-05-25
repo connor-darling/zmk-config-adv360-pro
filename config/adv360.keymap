@@ -21,6 +21,15 @@
         };
     };
 
+    macros {
+        ss_select: ss_select {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INT_KATAKANAHIRAGANA>;
+            label = "SS_SELECT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
