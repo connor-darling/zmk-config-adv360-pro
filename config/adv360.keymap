@@ -80,11 +80,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1       &kp F2  &kp F3  &kp F4  &kp F5  &kp F6     &bt BT_NXT                                      &trans       &kp F7          &kp F8                &kp F9                 &kp F10        &kp F11  &kp F12
-&bootloader  &trans  &trans  &trans  &trans  &trans     &trans                                          &ss_select   &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS       &trans   &bootloader
-&trans       &trans  &trans  &trans  &trans  &kp GRAVE  &trans      &trans  &trans      &trans  &trans  &ss_toolbar  &kp MINUS       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &trans   &trans
-&trans       &trans  &trans  &trans  &trans  &trans                         &trans      &trans                       &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans   &trans
-&trans       &trans  &trans  &trans  &trans             &trans      &trans  &trans      &trans  &trans  &trans                       &trans                &trans                 &trans         &trans   &trans
+&kp F1       &kp F2  &kp F3  &kp F4  &kp F5     &kp F6     &bt BT_NXT                                      &trans       &kp F7          &kp F8                &kp F9                 &kp F10        &kp F11  &kp F12
+&bootloader  &trans  &trans  &trans  &trans     &trans     &trans                                          &ss_select   &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS       &trans   &bootloader
+&trans       &trans  &trans  &trans  &kp TILDE  &kp GRAVE  &trans      &trans  &trans      &trans  &trans  &ss_toolbar  &kp MINUS       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &trans   &trans
+&trans       &trans  &trans  &trans  &trans     &trans                         &trans      &trans                       &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans   &trans
+&trans       &trans  &trans  &trans  &trans                &trans      &trans  &trans      &trans  &trans  &trans                       &trans                &trans                 &trans         &trans   &trans
             >;
         };
     };
